@@ -2,13 +2,22 @@
 
 **Senior Fullstack / Automation QA Engineer** with **6+ years of commercial experience**.
 
-I work across the testing lifecycle: pre-production readiness, release validation,
-mock-based integration testing, UAT/E2E flows, test documentation, and quality
-enablement for QA teams.
+I help teams make complex releases testable and repeatable—from pre-production
+readiness and mocked integrations to UAT/E2E validation, evidence, and handover.
 
-## Featured work
+## Core areas
 
-### AI-assisted iOS UI scenarios for fintech
+| Area | Experience |
+|---|---|
+| **Product quality** | Pre-production readiness, release testing, UAT and E2E validation |
+| **Integration testing** | Controlled response mocks and hard-to-reproduce backend states |
+| **Test operations** | Test-case structure, Allure dashboards, reproducible evidence and reporting |
+| **Team enablement** | Cross-team QA support, complex scenario analysis and onboarding |
+| **Automation practice** | Python, pytest, HTTPX, Pydantic, SQLAlchemy, SQLite, asyncio/AnyIO and Allure |
+
+## Featured project
+
+### [AI-assisted iOS UI scenarios for fintech](https://github.com/ruslaniusupovwork/claude-ios-ui-test-scenarios)
 
 I designed and developed a repeatable UI-testing workflow for a mobile-banking
 product that combines:
@@ -23,19 +32,9 @@ The public repository is a **sanitized portfolio reconstruction**. It deliberate
 excludes application source code, credentials, internal hosts, real customer data,
 production artifacts, and confidential implementation details.
 
-→ [View the public case study](https://github.com/ruslaniusupovwork/fintech-ui-test-scenarios)
+## How I approach quality
 
-## QA focus
-
-- Pre-production and release testing
-- API, integration, UAT, and end-to-end testing
-- Mock-driven testing of hard-to-reproduce states
-- Test case design and test documentation
-- Allure dashboards and evidence-based reporting
-- Cross-team QA support and onboarding
-
-## Automation portfolio
-
-My current public automation work focuses on Python-based API testing with
-`pytest`, `HTTPX`, `Pydantic`, `SQLAlchemy`, `SQLite`, `asyncio` / `AnyIO`, and
-`Allure`.
+- Make rare states deterministic instead of depending on unstable test data.
+- Keep expected and actual results separate, especially when a scenario fails.
+- Automate repeatable checks while leaving colour, layout, icons, and consequential
+  actions behind an explicit visual or human-review boundary.
