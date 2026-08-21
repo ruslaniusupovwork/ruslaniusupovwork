@@ -38,3 +38,7 @@ production artifacts, and confidential implementation details.
 - Keep expected and actual results separate, especially when a scenario fails.
 - Automate repeatable checks while leaving colour, layout, icons, and consequential
   actions behind an explicit visual or human-review boundary.
+
+## Recent GitHub activity
+
+[![Ruslan's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ruslaniusupovwork&theme=github-compact&hide_border=true&area=true)](https://github.com/Ashutosh00710/github-readme-activity-graph)
